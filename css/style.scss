@@ -1,5 +1,36 @@
 $purple: #6C3E73;
+$purple-light: #744762;
+$blue:#33C1B3;
+body {
+	font-family: 'Open Sans', sans-serif;
+}
 #navbar {
 	background-color: $purple;
+}
+
+#hero-section {
+	background-image: url("../assets/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 70%;
+	width: 100%;
+	height: 80vh;
+	color: white;
+
+	.hero-box {
+		background-color: rgb(113,68,92, 0.8);
+		padding: 20px;
+		button {
+			margin-top: 20px;
+			margin-bottom: 50px !important;
+			background-color: $blue;
+			color: white;
+		}
+		img {
+			background-color: rgb(113,68,92, 0.8);
+			padding: 20px;
+			border-radius: 45px;
+		}
+	}
 
 }
