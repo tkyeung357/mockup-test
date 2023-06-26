@@ -22,9 +22,9 @@
     </head>
     <body>
         <nav id="navbar" class="navbar navbar-dark">
-            <div class="container">
-				<div class="col-lg-4 col-md-12 mx-auto">
-					<a class="navbar-brand d-flex align-items-center" href="#">
+            <div class="container-fluid">
+				<div class="col-lg-12">
+					<a class="navbar-brand d-flex align-items-center ms-md-4" href="#">
 						<img
 							src="assets/logo.png"
 							alt=""
@@ -33,7 +33,7 @@
 							class="d-inline-block align-text-top me-2"
 						/>
 						<div class="">
-							<h1 class="m-0">MugoMentor</h1>
+							<h1 class="m-0 fs-1">MugoMentor</h1>
 							<span class="fs-6">New Coders. Defining a path to success.</span>
 						</div>
 					</a>
@@ -112,52 +112,89 @@
                         <img class="w-100 h-auto" src="assets/mentor_logo.png" alt="" />
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mt-4">
                     <div class="col-12">
                         <form>
-                            <div class="mb-3">
-                                <label
-                                    for="exampleInputEmail1"
-                                    class="form-label"
-                                    >Email address</label
-                                >
-                                <input
-                                    type="email"
-                                    class="form-control"
-                                    id="exampleInputEmail1"
-                                    aria-describedby="emailHelp"
-                                />
-                                <div id="emailHelp" class="form-text">
-                                    We'll never share your email with anyone
-                                    else.
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <label
-                                    for="exampleInputPassword1"
-                                    class="form-label"
-                                    >Password</label
-                                >
-                                <input
-                                    type="password"
-                                    class="form-control"
-                                    id="exampleInputPassword1"
-                                />
-                            </div>
-                            <div class="mb-3 form-check">
-                                <input
-                                    type="checkbox"
-                                    class="form-check-input"
-                                    id="exampleCheck1"
-                                />
-                                <label
-                                    class="form-check-label"
-                                    for="exampleCheck1"
-                                    >Check me out</label
-                                >
-                            </div>
-                            <button type="submit" class="btn btn-primary">
-                                Submit
+							<div class="row">
+								<div class="mb-3 col-lg-6 col-md-12">
+									<input
+										type="text"
+										class="form-control"
+										id="firstname"
+										placeholder="First Name*"
+									/>
+								</div>
+								<div class="mb-3 col-lg-6 col-md-12">
+									<input
+										type="email"
+										class="form-control"
+										id="lastname"
+										placeholder="Last Name*"
+									/>
+								</div>
+								<div class="mb-3 col-lg-12 col-md-12">
+									<input
+										type="email"
+										class="form-control"
+										id="exampleInputEmail1"
+										placeholder="Email*"
+									/>
+								</div>
+								<div class="mb-3 col-lg-6 col-md-12">
+									<input
+										type="email"
+										class="form-control"
+										id="exampleInputEmail1"
+										placeholder="Email*"
+									/>
+								</div>
+								<div class="dropdown col-12">
+									<span class="fw-bold">Distince</span>
+									<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+										5KM
+									</button>
+									<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+										<li><a class="dropdown-item active" aria-current="true" href="#">5 KM</a></li>
+										<li><a class="dropdown-item" href="#">4 KM</a></li>
+										<li><a class="dropdown-item" href="#">3 KM</a></li>
+									</ul>
+								</div>
+								<div class="dropdown col-12">
+									<span class="fw-bold">Coding Population Served</span>
+									<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+										All
+									</button>
+									<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+										<li><a class="dropdown-item active" aria-current="true" href="#">All</a></li>
+										<li><a class="dropdown-item" href="#">Another action</a></li>
+										<li><a class="dropdown-item" href="#">Something else here</a></li>
+									</ul>
+								</div>
+								<div class="dropdown col-12">
+									<span class="fw-bold">Age of Coders Served</span>
+									<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+										All
+									</button>
+									<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+										<li><a class="dropdown-item active" aria-current="true" href="#">All</a></li>
+										<li><a class="dropdown-item" href="#">Another action</a></li>
+										<li><a class="dropdown-item" href="#">Something else here</a></li>
+									</ul>
+								</div>
+								<div class="dropdown col-12">
+									<span class="fw-bold">Type of Mentoring</span>
+									<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+										All
+									</button>
+									<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+										<li><a class="dropdown-item active" aria-current="true" href="#">All</a></li>
+										<li><a class="dropdown-item" href="#">Another action</a></li>
+										<li><a class="dropdown-item" href="#">Something else here</a></li>
+									</ul>
+								</div>
+							</div>
+                            <button type="submit" class="btn btn-primary btn-submit col-lg-3 col-md-6 col-sm-12 mt-3">
+                                Search for Opportunities
                             </button>
                         </form>
                     </div>

@@ -53,4 +53,25 @@ body {
 
 #form {
   margin-top: 100px;
+}
+#form .dropdown {
+  margin: 0.5rem 0;
+}
+#form .dropdown button {
+  background-color: lightgrey;
+  width: 100%;
+  border: none;
+  text-align: left;
+  position: relative;
+}
+#form .dropdown button:after {
+  color: black;
+  position: absolute;
+  right: 20px;
+  bottom: 45%;
+}
+#form .btn-submit {
+  background-color: #33C1B3;
+  color: white;
+  border: none;
 }/*# sourceMappingURL=style.css.map */

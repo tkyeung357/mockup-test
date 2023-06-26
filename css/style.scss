@@ -58,4 +58,27 @@ body {
 
 #form {
 	margin-top: 100px;
+
+	.dropdown {
+		margin: 0.5rem 0;
+		button {
+			background-color: lightgrey;
+			width: 100%;
+			border: none;
+			text-align: left;
+			position: relative;
+
+			&:after {
+				color: black;
+				position: absolute;
+				right: 20px;
+				bottom: 45%;
+			}
+		}
+	}
+	.btn-submit {
+		background-color: $blue;
+		color: white;
+		border: none;
+	}
 }
