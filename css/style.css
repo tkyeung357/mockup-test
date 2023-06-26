@@ -29,4 +29,20 @@ body {
   background-color: rgba(113, 68, 92, 0.8);
   padding: 20px;
   border-radius: 45px;
+}
+
+#mentor-analyst {
+  margin-top: 70px;
+}
+#mentor-analyst .head {
+  font-weight: 700;
+}
+#mentor-analyst .analyst-result {
+  color: #5791B8;
+}
+#mentor-analyst .desc {
+  font-weight: 600;
+}
+#mentor-analyst .desc p {
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */
