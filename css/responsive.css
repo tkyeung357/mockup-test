@@ -1,0 +1,44 @@
+@media screen and (max-width: 767px) {
+  #navbar {
+    text-align: center;
+  }
+  #navbar img {
+    display: none !important;
+  }
+  #navbar span {
+    display: none;
+  }
+  #hero-section .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #hero-section .container-fluid h2 {
+    font-weight: 500;
+  }
+  #mentor-analyst .container {
+    max-width: 95% !important;
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  #mentor-analyst .container .head {
+    font-size: 1.7rem;
+  }
+  #mentor-analyst .container .item {
+    margin-top: 2rem;
+  }
+  #mentor-analyst .container .desc {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  #mentor-analyst .container .desc p {
+    margin: 0;
+  }
+  #form {
+    margin: 50px auto auto auto;
+  }
+  #form .container {
+    max-width: 95% !important;
+    width: 100%;
+    font-size: 1.2rem;
+  }
+}/*# sourceMappingURL=responsive.css.map */

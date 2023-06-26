@@ -1,0 +1,51 @@
+@media screen and (max-width: 767px) {
+    #navbar {
+        text-align: center;
+        img {
+            display: none !important;
+        }
+        span {
+            display: none;
+        }
+    }
+    #hero-section {
+        .container-fluid {
+            padding-left: 0;
+            padding-right: 0;
+            h2 {
+                font-weight: 500;
+            }
+        }
+    }
+
+    #mentor-analyst {
+        .container {
+            max-width: 95% !important;
+            width: 100%;
+            font-size: 1.2rem;
+
+            .head {
+                font-size: 1.7rem;
+            }
+            .item {
+                margin-top: 2rem;
+            }
+            .desc {
+                font-weight: 600;
+                font-size: 1.2rem;
+
+                p {
+                    margin: 0;
+                }
+            }
+        }
+    }
+    #form {
+        margin: 50px auto auto auto;
+        .container {
+            max-width: 95% !important;
+            width: 100%;
+            font-size: 1.2rem;
+        }
+    }
+}

@@ -42,6 +42,7 @@ body {
 }
 #mentor-analyst .analyst-result {
   color: #5791B8;
+  margin-bottom: 10px;
 }
 #mentor-analyst .analyst-desc {
   max-width: 85%;
