@@ -42,7 +42,12 @@ body {
 }
 #mentor-analyst .desc {
   font-weight: 600;
+  font-size: 1.5rem;
 }
 #mentor-analyst .desc p {
   margin: 0;
+}
+
+#form {
+  margin-top: 100px;
 }/*# sourceMappingURL=style.css.map */
