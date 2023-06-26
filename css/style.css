@@ -10,7 +10,7 @@ body {
   background-image: url("../assets/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0 70%;
+  background-position: 0 50%;
   width: 100%;
   height: 80vh;
   color: white;
@@ -43,6 +43,10 @@ body {
 #mentor-analyst .analyst-result {
   color: #5791B8;
 }
+#mentor-analyst .analyst-desc {
+  max-width: 85%;
+  margin: auto;
+}
 #mentor-analyst .desc {
   font-weight: 600;
   font-size: 1.5rem;
@@ -52,7 +56,8 @@ body {
 }
 
 #form {
-  margin-top: 100px;
+  max-width: 1000px;
+  margin: 100px auto auto auto;
 }
 #form .dropdown {
   margin: 0.5rem 0;
@@ -63,6 +68,7 @@ body {
   border: none;
   text-align: left;
   position: relative;
+  color: black;
 }
 #form .dropdown button:after {
   color: black;
